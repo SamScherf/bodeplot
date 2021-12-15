@@ -24,6 +24,7 @@ class bode:
         figure, axis = plt.subplots(2, 1)
         figure.set_figheight(height)
         figure.set_figwidth(width)
+        figure.suptitle(title)
 
         # Get mag plot label
         mag_label = "Magnitude"

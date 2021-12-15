@@ -8,7 +8,7 @@ Simply import bodeplot and create a bode object by passing it frequency bounds:
 ```python
 import bodeplot
 
-bode = bodeplot([1e-2, 1e2])
+bode = bodeplot([1e-2, 1e2], title="Your optional title")
 ```
 
 You can now call the plot method to plot your various frequency responses:
